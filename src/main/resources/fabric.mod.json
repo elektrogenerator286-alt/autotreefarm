@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "autotreefarm",
+	"version": "${version}",
+	"name": "Auto Tree Farm",
+	"description": "Автоматически удобряет саженец дуба костной мукой, рубит дерево топором и убирает листву мотыгой. Клавиша G — вкл/выкл.",
+	"authors": ["you"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.example.treefarm.TreeFarmClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
